@@ -1,0 +1,19 @@
+# Локальные настройки
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Локальные секреты и журналы
+.env
+.env.*
+!.env.example
+*.log
+
+# Локальные зависимости, кэши и архив комплекта
+node_modules/
+__pycache__/
+.sass-cache/
+.jekyll-cache/
+_site/
+beauty-salon-landing-docs.zip

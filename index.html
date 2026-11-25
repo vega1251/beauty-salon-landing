@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#f8f4ee">
+    <meta name="description" content="Демонстрационный сайт вымышленного салона красоты «Линия ухода». Пример услуг и оформления без онлайн-записи.">
+    <title>Линия ухода — демо салона красоты</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+    <div class="demo-notice" role="note">
+      <span class="demo-notice__dot" aria-hidden="true"></span>
+      Демонстрационный сайт вымышленного салона
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Линия ухода — на главную">
+        <span class="brand__mark" aria-hidden="true">л.</span>
+        <span class="brand__text">линия <span>ухода</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Главная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#about">О пространстве</a>
+        <a href="#gallery">Атмосфера</a>
+        <a class="site-nav__cta" href="#contact">Контакты</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__line"></span> салон красоты · москва</p>
+          <h1 id="hero-title">Красота<br>в своём <em>ритме</em></h1>
+          <p class="hero__text">Уход за собой, который начинается с внимания к деталям. Маникюр, волосы и брови — в одном спокойном пространстве.</p>
+          <a class="button button--dark" href="#services">Посмотреть услуги <span aria-hidden="true">↗</span></a>
+          <p class="hero__caption">Демонстрационные услуги и цены · Запись недоступна</p>
+        </div>
+        <div class="hero__art" role="img" aria-label="Иллюстрация цветов и косметических флаконов в тёплой палитре">
+          <div class="hero-art__sun"></div>
+          <div class="hero-art__vase"><span></span><span></span><span></span></div>
+          <div class="hero-art__bottle hero-art__bottle--one"><i></i></div>
+          <div class="hero-art__bottle hero-art__bottle--two"><i></i></div>
+          <div class="hero-art__leaf hero-art__leaf--one"></div>
+          <div class="hero-art__leaf hero-art__leaf--two"></div>
+          <div class="hero-art__label">care<br>rituals</div>
+          <div class="hero-art__note">естественная<br>красота</div>
+        </div>
+        <div class="hero__scroll" aria-hidden="true"><span></span> листайте ниже</div>
+      </section>
+
+      <section class="services section" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow__line"></span> забота о себе</p><h2 id="services-title">Маленькие ритуалы.<br><em>Большое настроение.</em></h2></div>
+          <p class="section-heading__aside">Пример услуг и цен<br><span>Указаны только для демонстрации</span></p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-card--nails">
+            <div class="service-card__top"><span class="service-card__number">01</span><span class="service-card__icon" aria-hidden="true">✳</span></div>
+            <p class="eyebrow">маникюр · педикюр</p><h3>Красота<br>до кончиков</h3>
+            <p class="service-card__description">Аккуратная форма, любимый оттенок и ощущение, что всё на своих местах.</p>
+            <div class="service-card__bottom"><span>от 1 800 ₽</span><a href="#contact" aria-label="Подробнее о маникюре и педикюре">↗</a></div>
+          </article>
+          <article class="service-card service-card--hair">
+            <div class="service-card__top"><span class="service-card__number">02</span><span class="service-card__icon" aria-hidden="true">〰</span></div>
+            <p class="eyebrow">стрижки · окрашивание</p><h3>Волосы,<br>которые звучат</h3>
+            <p class="service-card__description">Мягкое обновление образа и уход, который учитывает ваши привычки.</p>
+            <div class="service-card__bottom"><span>от 2 400 ₽</span><a href="#contact" aria-label="Подробнее о стрижках и окрашивании">↗</a></div>
+          </article>
+          <article class="service-card service-card--brows">
+            <div class="service-card__top"><span class="service-card__number">03</span><span class="service-card__icon" aria-hidden="true">✳</span></div>
+            <p class="eyebrow">брови · уход</p><h3>Тонкий<br>штрих</h3>
+            <p class="service-card__description">Естественная форма и деликатные процедуры для завершённого образа.</p>
+            <div class="service-card__bottom"><span>от 1 200 ₽</span><a href="#contact" aria-label="Подробнее об оформлении бровей">↗</a></div>
+          </article>
+        </div>
+        <p class="price-note">Все цены на странице — примеры для макета и не являются предложением услуг реального салона.</p>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="about__visual" role="img" aria-label="Абстрактная иллюстрация солнечного света и ветвей">
+          <div class="about-visual__arch"></div><div class="about-visual__orb"></div>
+          <div class="about-visual__stem about-visual__stem--one"></div><div class="about-visual__stem about-visual__stem--two"></div>
+          <span class="about-visual__caption">свет · тишина · забота</span>
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow"><span class="eyebrow__line"></span> пространство для себя</p>
+          <h2 id="about-title">Пауза,<br>которую вы <em>заслужили</em></h2>
+          <p>«Линия ухода» — вымышленная концепция салона, где привычные процедуры становятся приятной частью дня. Здесь нет спешки, только бережное внимание к вашему настроению.</p>
+          <a class="text-link" href="#gallery">Почувствовать атмосферу <span aria-hidden="true">↗</span></a>
+          <div class="about__signature" aria-hidden="true"><span>л.</span><div>с теплом<br>к себе</div></div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading section-heading--gallery">
+          <div><p class="eyebrow"><span class="eyebrow__line"></span> настроение</p><h2 id="gallery-title">В деталях <em>пространства</em></h2></div>
+          <p class="section-heading__aside">Иллюстрации созданы<br><span>средствами CSS специально для демо</span></p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-tile gallery-tile--one" role="img" aria-label="Иллюстрация цветочной композиции"><div class="tile-flower"><i></i><i></i><i></i><i></i><b></b></div><span>01 / цвет и форма</span></div>
+          <div class="gallery-tile gallery-tile--two" role="img" aria-label="Иллюстрация флаконов для ухода"><div class="tile-bottles"><i></i><i></i><i></i></div><span>02 / мягкий уход</span></div>
+          <div class="gallery-tile gallery-tile--three" role="img" aria-label="Иллюстрация ткани и солнечного света"><div class="tile-fabric"><i></i></div><span>03 / спокойный свет</span></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow"><span class="eyebrow__line"></span> следующий шаг</p>
+        <h2 id="contact-title">Понравилось<br><em>это настроение?</em></h2>
+        <p class="contact__text">Это демонстрационный макет. Онлайн-запись и контакты вымышленного салона не предусмотрены.</p>
+        <a class="button button--light" href="#top">Вернуться наверх <span aria-hidden="true">↑</span></a>
+        <div class="contact__ornament" aria-hidden="true">л.</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="brand brand--footer" href="#top" aria-label="Линия ухода — на главную"><span class="brand__mark" aria-hidden="true">л.</span><span class="brand__text">линия <span>ухода</span></span></a>
+        <p>Демонстрационный сайт<br>вымышленного салона красоты</p>
+        <a class="footer-top" href="#top">Наверх ↑</a>
+      </div>
+      <div class="footer-legal">
+        <p><strong>О хостинге.</strong> Если сайт открыт на GitHub Pages, GitHub сообщает, что записывает и хранит IP-адреса посетителей для обеспечения безопасности.</p>
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Заявление GitHub о конфиденциальности <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom"><span>© 2026 · Концепция для портфолио</span><span>Услуги и цены представлены для примера</span></div>
+    </footer>
+  </body>
+</html>
